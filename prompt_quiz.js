@@ -3,8 +3,8 @@
   var score = 0;
   var newscore = 0;
 
-  var answer = prompt("What is the capital of Hawaii?");
-    if (answer == "Honolulu") {
+  var answer = prompt("What is the capital of Hawaii?").toLowerCase();
+    if (answer == "honolulu") {
       var newscore = newscore+1;
       alert("Correct!")
     } else {
@@ -12,8 +12,8 @@
       alert("Sorry, the answer is Honolulu.")
   }
 
-  var answer = prompt("What is the state bird?");
-    if (answer == "Nene") {
+  var answer = prompt("What is the state bird?").toLowerCase();
+    if (answer == "nene") {
         var newscore = newscore+1;
         alert("That's right.")
     } else {
@@ -21,8 +21,8 @@
       alert("Nope. The answer is Nene.")  
   }
 
-  var answer = prompt("What is the Hawaiian name for Diamond Head?");
-    if (answer == "Leahi") {
+  var answer = prompt("What is the Hawaiian name for Diamond Head?").toLowerCase();
+    if (answer == "leahi") {
       var newscore = newscore+1;
       alert("Awesome!")
     } else {
@@ -30,7 +30,7 @@
       alert("Nice try, but the correct answer is Leahi.")  
   }
 
-  var answer = prompt("What is the traditional dance of Hawaii?");
+  var answer = prompt("What is the traditional dance of Hawaii?").toLowerCase();
     if (answer == "hula") {
       var newscore = newscore+1;
       alert("You are right again.")
