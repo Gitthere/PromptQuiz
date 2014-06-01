@@ -1,13 +1,14 @@
 (function() {
 
-  var score=0;
+  var score = 0;
+  var newscore = 0;
 
   var answer = prompt("What is the capital of Hawaii?");
     if (answer == "Honolulu") {
-      var newscore = score+1;
+      var newscore = newscore+1;
       alert("Correct!")
     } else {
-      newscore = score+0; 
+      newscore = newscore+0; 
       alert("Sorry, the answer is Honolulu.")
   }
 
@@ -16,7 +17,7 @@
         var newscore = newscore+1;
         alert("That's right.")
     } else {
-      newscore = score+0; 
+      newscore = newscore+0; 
       alert("Nope. The answer is Nene.")  
   }
 
@@ -25,7 +26,7 @@
       var newscore = newscore+1;
       alert("Awesome!")
     } else {
-      newscore = score+0;  
+      newscore = newscore+0;  
       alert("Nice try, but the correct answer is Leahi.")  
   }
 
@@ -34,7 +35,7 @@
       var newscore = newscore+1;
       alert("You are right again.")
     } else {
-        newscore = score+0; 
+        newscore = newscore+0; 
         alert("How could you not know that?")     
   }
 
@@ -43,10 +44,10 @@
       var newscore = newscore+1;
       alert("You got it, you braniac.")
     } else {
-          newscore = score+0; 
+          newscore = newscore+0; 
           alert("Not even close. The answer is 1959.  Please go buy a history book.")     
     }
     
-  alert ("Your score is " + (newscore) + "out of 5")
+  alert ("Your score is " + (newscore) + " out of 5")
 
 })();
